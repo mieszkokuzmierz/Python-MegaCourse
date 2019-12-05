@@ -17,3 +17,5 @@ while True:
 
 print(" ".join(lista)))
 
+#adding comments to the file
+
