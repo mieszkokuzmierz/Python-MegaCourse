@@ -3,7 +3,9 @@
 #Code searches through dictionary, returns its meaning, can go through minor typos and distinguish them, not giving errors
 
 import json
+import os
 from difflib import get_close_matches
+os.chdir('C:\\Users\\miesz\\dev\\Python-MegaCourse\\App1 - Dictionary') 
 data = json.load(open("data.json"))
 def translate(w):
     w = w.lower()
